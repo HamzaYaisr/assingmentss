@@ -1,0 +1,3 @@
+var num1 = +prompt("Enter first number: ");
+var num2 = +prompt("Enter second number: ");
+document.write("The sum of " + num1 + " and " + num2 + " is= " + (num1 + num2) + "<br> the diifrence between " + num1 + " and  " + num2 + " is= " + (num1 - num2) + "<br> the product of  " + num1 + " and  " + num2 + " is= " + (num1 * num2) + "<br> the dividion of " + num1 + " and  " + num2 + " is= " + (num1 / num2) + " <br>the modulus of  " + num1 + " and  " + num2 + " is= " + (num1 % num2));

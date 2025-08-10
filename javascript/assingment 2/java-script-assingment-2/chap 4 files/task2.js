@@ -1,0 +1,1 @@
+document.write("<h1>legal variable names</h1><h4>1. var firstName = 'hamza';</h4><h4>2. var lastName = 'yasir';</h4><h4>3. var age = 16;</h4><h1>illegal variable names</h1><h4>1. var 1stName = 'hamza';</h4><h4>2. var last-Name = 'yasir';</h4><h4>3. var age@ = 16;</h4>");

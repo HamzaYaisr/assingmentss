@@ -1,0 +1,539 @@
+.navbar {
+    justify-content: space-evenly !important;
+}
+
+.nav-div-list li {
+    margin-right: 25px;
+}
+
+.nav-main {
+    display: flex !important;
+    justify-content: space-around !important;
+    width: 100%;
+    align-items: center;
+}
+
+.decore-1 {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: -999;
+}
+
+.cstm-btn {
+    border: 2px solid black !important;
+}
+
+
+.screen-1 {
+    margin-top: 80px;
+}
+
+.heading-1 {
+    font-size: 20px;
+}
+
+.cstm-btn-2 {
+    color: white !important;
+}
+
+.screen-1-sub-div {
+    display: flex;
+    width: 900px;
+    height: 50px;
+}
+
+.screen-1-sub-div button {
+    position: absolute;
+    top: 55%;
+}
+
+.screen-1-sub-div p {
+    position: absolute;
+    top: 53%;
+    left: 17%;
+}
+
+/* .screen-1-data {
+    display: flex;
+    flex-direction: column; or 'row' if you want horizontal spacing
+    gap: 20px; Adjust the value as needed
+} */
+.screen-1-data>* {
+    margin-bottom: 20px;
+    /* Adjust the value as needed */
+}
+
+.screen-1-img {
+    position: absolute;
+    right: 4%;
+    top: 70px;
+    width: auto;
+    height: 700px;
+}
+
+.screen-1-img img {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .decore-1 {
+        display: none;
+    }
+
+    .screen-1-img {
+        height: 600px;
+        width: 400px;
+        position: absolute;
+        top: 65%;
+    }
+
+    .screen-1-data-div-para {
+        margin-left: 90px;
+    }
+
+    .card-divs-category {
+        align-content: center !important;
+        justify-content: center !important;
+    }
+
+    .category-div {
+        margin-top: 800px !important;
+    }
+
+    .decor-category {
+        display: none;
+    }
+
+    .feed-back-card-div {
+        margin-top: 28px !important;
+    }
+
+}
+
+.decor-category {
+    z-index: -20;
+    position: absolute;
+    left: 27%;
+    top: 145%;
+}
+
+.h6-category {
+    font-size: 18px;
+    text-align: center;
+}
+
+.category-div {
+    margin-top: 300px;
+}
+
+.h1-category-div {
+    text-align: center;
+    font-size: 50px;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* Center horizontally */
+    width: 120px;
+    /* Set desired width */
+    height: 80px;
+}
+
+.category-div-img {
+    width: 100%;
+    /* Make image fill the container */
+    height: 100%;
+    object-fit: contain;
+    /* Keep aspect ratio */
+}
+
+.card-para {
+    text-align: center;
+    font-size: 16px;
+}
+
+.card-divs-category {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px !important;
+}
+
+.card-body {
+    margin-top: 30px;
+}
+
+.active-card-category {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+body {
+    height: 15000px;
+}
+
+.cards {
+    padding: 20px;
+}
+
+.destination-div-main {
+    margin-top: 150px;
+}
+
+.descardt- {
+    border: 2px solid black !important;
+    height: 457px;
+    width: 315px !important;
+}
+
+
+
+
+
+
+
+
+
+
+.destination-section {
+    text-align: center;
+    padding: 40px 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.section-subtitle {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px !important;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card {
+    width: 260px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    border: 1px solid #eee;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.image-box {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    /* Ensures it's square */
+    overflow: hidden;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: block;
+}
+
+.card-content {
+    padding: 16px;
+    text-align: left;
+}
+
+.card-content h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1c1c1c;
+    margin-bottom: 6px;
+}
+
+.card-content .price {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.card-content .days {
+    font-size: 14px;
+    color: #ffb100;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.card-content .icon {
+    font-size: 16px;
+}
+
+.container-guide {
+    margin-top: 150px
+}
+
+.h6-guide {
+    font-size: 18px;
+}
+
+.h1-guide-div {
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-image: url('assests/bullet-1.png');
+}
+
+
+
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    max-width: 700px;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    background-color: #f1b600;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.content h4 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.content p {
+    margin: 6px 0 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.feature-item-div {
+    margin-top: 60px;
+
+}
+
+.feature-item {
+    margin-bottom: 12px;
+}
+
+.icon-2 {
+    background-color: #F15A2B;
+}
+
+.icon-3 {
+    background-color: #006380;
+}
+
+.card-1 {
+    width: 350px;
+    height: 370px;
+    margin-top: 30px;
+    margin-left: 110px !important;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+
+
+
+
+    box-shadow:
+        0 -30px 60px rgba(60, 132, 255, 0.2),
+        0 30px 60px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    background: #fff;
+
+
+
+}
+
+.card-1-img {
+    padding-top: 20px;
+    padding-left: 13px;
+}
+
+.card-1-h4 {
+    padding-left: 17px;
+    padding-top: 10px;
+}
+
+.card-1-h6 {
+    font-size: 16px;
+    padding-left: 17px;
+    padding-top: 4px;
+}
+
+.card-1-sub {
+    display: flex;
+}
+
+.card-1-sub-sub {
+    width: 2px;
+    height: 25px;
+    background-color: grey;
+    margin-left: 5px;
+}
+
+.card-1-sub-h4 {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.card-1-img-2 {
+    margin-left: 13px;
+    margin-top: 7px;
+}
+
+.card-opt-sub {
+    display: flex;
+
+}
+
+.card-opt-sub h6 {
+    padding-left: 6px;
+}
+
+.card-opt-main {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 6px;
+    margin-top: 16px !important;
+}
+
+.card-2 {
+    position: relative;
+    width: 250px;
+    height: 120px;
+    /* background-color: black; */
+    border-radius: 20px;
+    margin-left: 290px;
+    background: white;
+    margin-top: -170px;
+    z-index: 999 !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.card-2-sub-h6 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 6px;
+
+}
+
+.card-2-sub {
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.card-2-sub-h4 {
+    font-size: 18px;
+    margin-left: 4px;
+
+}
+
+.span-1 {
+    color: #8A79DF;
+}
+
+.card2-hd {
+    font-size: 14px;
+
+    margin-left: 15px;
+}
+
+.card2-img {
+    margin-bottom: 19px;
+    margin-left: 15px;
+
+}
+
+.feed-back-section {
+    margin-top: 100px;
+}
+
+.feed-back-section>div>div>div>h1 {
+    margin-top: 20px;
+}
+
+.feed-back-section>div>div>div>img {
+    margin-top: 190px;
+    margin-right: 20px;
+
+}
+
+.feed-back-div>h4 {
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.feed-back-div>h6 {
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+.feed-back-div>p {
+    padding-top: 10px;
+}
+
+.feed-back-div {
+    margin-left: 61px;
+    margin-top: -39px;
+    box-shadow: 4px 30px 70px rgba(0, 0, 0, 0.25);
+}
+
+.div-1 {
+    position: relative !important;
+    z-index: 100;
+}
+
+.feed-back-card-div-2 {
+    margin-top: -10px;
+    margin-left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: relative !important;
+    z-index: -100;    
+}

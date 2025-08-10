@@ -1,0 +1,19 @@
+h1 {
+    text-transform: capitalize;
+    font-family: poppins;
+    text-align: center;
+    color: #FFC107;
+    font-size: 50px;
+}
+
+body {
+    background-color: #347433;
+}
+
+.data {
+    color: #FFC107;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-family: poppins;
+    text-align: center;
+}

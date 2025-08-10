@@ -1,0 +1,10 @@
+var mrkofscience = +prompt("Enter the marks of science subject: ");
+var mrkofmaths = +prompt("Enter the marks of maths subject: ");
+var mrkofenglish = +prompt("Enter the marks of english subject: ");
+var totmrksofscience = 100;
+var totmrksofmaths = 100;
+var totmrksofenglish = 100;
+var sciencepercentage = (mrkofscience / totmrksofscience) * 100;
+var mathspercentage = (mrkofmaths / totmrksofmaths) * 100;
+var englishpercentage = (mrkofenglish / totmrksofenglish) * 100;
+document.write("<h1>Marks Sheet</h1><br> <table><tr><th>Subject</th><th>Total Marks</th><th>Marks Obtained</th><th>Percentage</th></tr> <tr><td>Science</td><td>" + totmrksofscience + "</td><td>" + mrkofscience + "</td><td>" + sciencepercentage + "%</td></tr><tr><td>Maths</td><td>" + totmrksofmaths + "</td><td>" + mrkofmaths + "</td><td>" + mathspercentage + "%</td></tr><tr><td>English</td><td>" + totmrksofenglish + "</td><td>" + mrkofenglish + "</td><td>" + englishpercentage + "%</td></tr></table>");
