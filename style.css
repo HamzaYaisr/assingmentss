@@ -16,4 +16,16 @@ body {
     text-transform: capitalize;
     font-family: poppins;
     text-align: center;
+    list-style-position: inside; /* keeps numbers inside and centered */
 }
+
+a {
+ text-decoration: none;
+    color: #FFC107; /* or any other color like #333, red, etc. */
+}
+.container { /* Parent of the ul/ol */
+      text-align: center;
+      align-items: center;
+    }
+
+   
