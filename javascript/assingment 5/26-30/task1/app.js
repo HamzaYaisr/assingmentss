@@ -1,0 +1,5 @@
+var num = prompt("enter a positive integer ")
+var round = Math.round(num)
+var ceil = Math.ceil(num)
+var floor = Math.floor(num)
+document.write("number: "  + num + " </br> round: "+ round + "<br> floor: " + floor + " </br> ceil: " + ceil)

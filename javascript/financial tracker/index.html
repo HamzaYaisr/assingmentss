@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expense Tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <header class="card-header">
+        <h1 class="title">Expense Tracker</h1>
+        <div class="balance-block">
+          <p class="balance-label">Your Balance</p>
+          <p id="balance" class="balance-amount">$0.00</p>
+        </div>
+      </header>
+
+      <section class="summary">
+        <div class="summary-item income">
+          <p class="small-label">Income</p>
+          <p id="income" class="big-amount">$0.00</p>
+        </div>
+        <div class="summary-item expenses">
+          <p class="small-label">Expenses</p>
+          <p id="expenses" class="big-amount">$0.00</p>
+        </div>
+      </section>
+
+      <section class="add-transaction">
+        <h2 class="section-title">Add Transaction</h2>
+        <label class="form-label" for="desc">Description</label>
+        <input id="desc" class="input" type="text" placeholder="Enter description" />
+
+        <label class="form-label" for="amount">Amount <span class="hint">(negative = expense, positive = income)</span></label>
+        <input id="amount" class="input" type="number" placeholder="Enter amount" />
+
+        <button id="addTransactionBtn" class="btn-add">Add Transaction</button>
+      </section>
+
+      <section class="history">
+        <h2 class="section-title">Transaction History</h2>
+        <div class="table-wrap">
+          <table class="tx-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="transactionList"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

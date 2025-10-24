@@ -1,0 +1,5 @@
+var num = prompt("enter a negative integer ")
+var round = Math.round(num)
+var ceil = Math.ceil(num)
+var floor = Math.floor(num)
+document.write("number: "  + num + " </br> round: "+ round + "<br> floor: " + floor + " </br> ceil: " + ceil)
